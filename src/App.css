@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Bevan');
+
+.App {
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('https://media.giphy.com/media/f8uavkHgiUfUk/giphy.gif') no-repeat center center fixed;
+  height: 100vh;
+  margin-top: -25px;
+  padding-bottom: 25px;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.body-elements {
+  position: relative;
+  top: 20%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.description {
+  margin: 0;
+  padding-bottom: 1.3rem;
+  letter-spacing: 0.5px;
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  background: none;
+  border-style: none;
+  font-size: 2rem;
+  letter-spacing: 0.8px;
+  color: white;
+  cursor: pointer;
+  font-family: Helvetica, sans-serif;
+}
+
+input {
+  border-style: none;
+  border-bottom-style: inset;
+  border-bottom-color: white;
+  border-bottom-width: 0.25px;
+  background-color: transparent;
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 780px) {
+  input {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  input {
+    width: 60%;
+  }
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.button-submit-hidden {
+  visibility: hidden;
+  margin-bottom: 25px;
+}
+
+.button-submit {
+  visibility: visible;
+}
+
+.App-intro {
+  font-family: 'Bevan', Helvetica;
+  margin-bottom: 4rem;
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .App-intro {
+    font-size: 3rem;
+  }
+
+}
+
+a {
+  color: white;
+}
