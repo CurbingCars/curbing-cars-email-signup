@@ -1,6 +1,6 @@
 {
-  "homepage": "http://curbingcars.github.io/curbing-cars-splash",
   "name": "curbing-cars-splash",
+  "homepage": "http://curbingcars.github.io/curbing-cars-splash",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
